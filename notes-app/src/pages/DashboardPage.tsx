@@ -69,11 +69,10 @@ const DashboardPage: React.FC<DashboardPageProps> = ({ user }) => {
   const handleSaveNote = async (note: { title: string; content: string; image: string }) => {
     if (editingNote) {
       if (editingNote.id === 0) {
-        // Adding a new note
         try {
           const response = await createNote(note);
           if (response?.id) {
-            setNotes((prevNotes) => [...prevNotes, response]); // Add the new note to the list
+            setNotes((prevNotes) => [...prevNotes, response]);
           } else {
             console.error('Failed to add note: Invalid response from the API');
           }
