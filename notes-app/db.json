@@ -1,0 +1,35 @@
+{
+  "users": [
+    {
+      "id": "66da",
+      "email": "nick@mailinator.com",
+      "password": "nick"
+    }
+  ],
+  "notes": [
+    {
+      "title": "New Note 1",
+      "content": "Note 1",
+      "image": "blob:http://localhost:3000/86b42996-967d-4286-9fd8-ef4d2cda813d",
+      "id": "5f9a"
+    },
+    {
+      "id": "919a",
+      "title": "testv 2",
+      "content": "fsf",
+      "image": "blob:http://localhost:3000/b0cbad43-9e54-4ce8-9f4a-1ca9c76154f0"
+    },
+    {
+      "id": "efb5",
+      "title": "test",
+      "content": "note 3",
+      "image": "blob:http://localhost:3000/2b00feb3-c5ef-483e-bd18-280486452e6e"
+    },
+    {
+      "title": "Note 4",
+      "content": "Note 4",
+      "image": "blob:http://localhost:3000/0e954012-af82-4ecb-bcd7-4add5f3f28e9",
+      "id": "1c67"
+    }
+  ]
+}
