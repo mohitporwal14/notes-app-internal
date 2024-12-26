@@ -81,7 +81,6 @@ const DashboardPage: React.FC<DashboardPageProps> = ({ user }) => {
           console.error('Failed to create note:', error);
         }
       } else {
-        // Updating an existing note
         try {
           const response = await updateNote(editingNote.id, note);
           if (response) {
